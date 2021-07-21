@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #fff;
+}
+@font-face{
+  font-family:"BwGradualDEMO-ExtraBoldItalic";
+  src: local("BwGradualDEMO-ExtraBoldItalic"),
+  url(../assets/fonts/BwGradualDEMO-ExtraBold.otf) format("truetype");
+}
+@font-face{
+  font-family:"muli";
+  src: local("muli"),
+  url(../assets/fonts/Muli.ttf) format("truetype");
+}
+
+// Fonts
+$header-font: "BwGradualDEMO-ExtraBoldItalic";
+$regular-fonts: "muli";
+
+// Colors
+$white: #fff;
+$body-text: #666;
+$base-red: #ee3c24;
+$ash-back:  #efefef;
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-family: $regular-fonts;
+}
+
+a:hover {
+  text-decoration: none;
+  color: $white;
+}
+h1 {
+  font-family: $header-font;
+  font-size: 2.0rem;
+}
+h2 {
+  font-family: $header-font;
+}
+h3 {
+  font-family: $regular-fonts;
+}
+h4 {
+  font-family: $regular-fonts;
+}
+h5 {
+  font-family: $regular-fonts;
+}
+h6 {
+  font-family: $regular-fonts;
+}
+
+p {
+  font-size: 18px;
+  color: $body-text;
+  font-family: $regular-fonts;
+}
+
+button {
+  font-family: $regular-fonts;
+}
+
+.base-outline {
+  border: 1px solid $white;
+  background-color: transparent;
+  color: $white;
+  padding: 10px 30px 10px 30px;
+}
+
+.base-outline:hover {
+  background-color: $white;
+  color: #000;
+  transition: 0.5s;
+}
+
+.btn-red-base {
+  background-color: $base-red;
+  color: $white;
+  padding: 10px 30px 10px 30px;
+  border: 1px solid $base-red;
+}
+
+.btn-red-base:hover {
+  background-color: transparent;
+  border: 1px solid $base-red;
+  color: $base-red;
+  transition: 0.5s;
+}
+
+.base-link {
+  padding: 10px 30px;
+  background-color: $base-red;
+  border: 1px solid $base-red;
+}
+.base-link:hover{
+  background-color: transparent;
+  color: $base-red;
+  transition: 0.5s;
+}
+
+.base-link-outline {
+  background-color: transparent;
+  border: 1px solid $base-red;
+  color: $base-red;
+  padding: 10px 30px;
+}
+
+.base-link-outline:hover {
+  background-color: $base-red;
+  color: $white;
+  transition: 0.5s;
+}
+// styles
+@import '/_style.scss';
+
+// Components
+@import 'components/invests';
+@import 'components/about';
+@import 'components/sustain';
+@import 'components/contact';
+
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}

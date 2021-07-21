@@ -1,0 +1,71 @@
+
+
+.story {
+  background-color: $ash-back;
+  padding: 80px 0px;
+  h2 {
+    color: $base-red;
+    padding-bottom: 20px;
+  }
+}
+
+.our-mission {
+  padding: 80px 0px;
+  background-color: $ash-back;
+  h2 {
+    color: $base-red;
+    padding-bottom: 20px;
+  }
+  .card {
+    border: 0px;
+    border-radius: 0px;
+    .vision-thumbnail {
+      height: 60vh;
+      // padding: 90px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    .content {
+      height: 20vh;
+      display: flex;
+      align-items: center;
+      margin: auto;
+      padding: 20px;
+    }
+  }
+}
+
+.our-core-values {
+  padding-bottom: 40px;
+  background-color: $ash-back;
+  h2 {
+    color: $base-red;
+    padding-bottom: 20px;
+  }
+  h3 {
+    font-family: $header-font;
+    color: $base-red;
+  }
+  .card {
+    border: 0px;
+    border-radius: 0px;
+    .content {
+      height: 35vh;
+      display: flex;
+      align-items: center;
+      padding: 40px;
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .our-mission {
+    .card {
+      .content {
+        width: 400px;
+        padding: 0px;
+      }
+    }
+  }
+}

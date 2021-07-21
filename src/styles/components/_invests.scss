@@ -1,0 +1,111 @@
+
+.bg-hero-invest {
+  background: linear-gradient(rgba(21, 37, 81, 0.48), rgba(67, 81, 119, 0.48)), url('/img/carmels-group-businesses-header-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  color: $white;
+  display: flex;
+  align-items: center;
+  .content {
+    width: 500px;
+    margin: auto;
+  }
+}
+
+.investments-section {
+  background-color: $ash-back;
+  padding: 50px 0px;
+  h2 {
+    color: $base-red;
+  }
+  p {
+    padding: 20px 0px;
+    color: $base-red;
+  }
+  h6 {
+    color: $base-red;
+  }
+  
+  .invest-rows {
+    padding: 40px 0px;
+  }
+
+  .carmels-tekno {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    background-color: $white;
+    .content {
+      margin: auto;
+      width: 400px;
+    }
+  }
+  .carmels-tekno:last-child {
+    background-image: url('/img/carmels-group-construction-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .carmtek {
+    background-image: url('/img/carmels-group-automation.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+  }
+
+  .carmtek:last-child {
+    background: $white;
+    display: flex;
+    align-items: center;
+    .content {
+      width: 400px;
+      margin: auto;
+    }
+  }
+
+  .techical {
+    height: 80vh;
+    background-color: $white;
+    display: flex;
+    align-items: center;
+    .content {
+      width: 400px;
+      margin: auto;
+    }
+  }
+
+  .techical:last-child {
+    background-image: url('/img/carmels-group-technical.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .precision {
+    background-image: url('/img/carmels-group-precision.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+  }
+
+  .precision:last-child {
+    background: $white;
+    display: flex;
+    align-items: center;
+    .content {
+      width: 400px;
+      margin: auto;
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .bg-hero-invest {
+    height: 90vh;
+  }
+}

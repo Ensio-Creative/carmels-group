@@ -1,0 +1,27 @@
+
+.humanity {
+  background-color: $ash-back;
+  padding: 80px 0px;
+  
+  .humanity-item {
+    height: 90vh;
+    background-color: $white;
+    display: flex;
+    align-items: center;
+    .content {
+      width: 511px;
+      margin: auto;
+      h2 {
+        color: $base-red;
+        padding-bottom: 10px;
+      }
+    }
+  }
+
+  .humanity-item:last-child {
+    background-image: url('/img/carmels-group-home-sustainability-description.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}

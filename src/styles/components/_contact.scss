@@ -1,0 +1,101 @@
+
+.get-in-touch {
+  padding: 40px 0px;
+  background-color: $white;
+  .get-text {
+    padding: 40px 0px;
+  }
+
+  .card {
+    border-radius: 0px;
+    .content {
+      height: 45vh;
+      padding: 20px;
+      h4 {
+        font-family: $header-font;
+        color: $base-red;
+      }
+    }
+  }
+}
+
+// Forms
+
+.send-message {
+  background-color: $ash-back;
+  padding: 80px 20px;
+
+  h2 {
+    padding-bottom: 30px;
+  }
+
+  .input-control {
+    margin: 10px 0;
+    font-family: $regular-fonts;
+  }
+  
+  .input-control label {
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 0px;
+  }
+  
+  .input-control input,
+  .input-control textarea {
+    display: block;
+    background-color: $ash-back;
+    width: 100%;
+    box-sizing: border-box;
+    font: inherit;
+    padding: 10px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 2px solid #cecece !important;
+    border-radius: 0px;
+  }
+  
+  input::-webkit-inner-spin-button,
+  input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+  
+  .input-control input:focus,
+  .input-control textarea:focus {
+    background-color: $ash-back;
+    outline: none;
+    border: 0px;
+  }
+
+  .btn-form {
+    margin-top: 20px;
+    background-color: $base-red;
+    padding: 10px;
+    color: $white;
+    border: 1px solid $base-red;
+  }
+  .btn-form:hover {
+    background-color: transparent;
+    color: $base-red;
+  }
+}
+
+@media (min-width: 1000px) {
+  .get-in-touch {
+    .get-text {
+      p {
+        width: 333px;
+        margin: auto;
+      }
+    }
+  }
+  .send-message {
+    background-color: $ash-back;
+    padding: 80px 200px;
+  }
+}
