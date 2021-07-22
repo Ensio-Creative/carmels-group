@@ -253,11 +253,12 @@ body {
 .bg-hero {
   display: flex;
   align-items: center;
-  background: linear-gradient(rgba(21, 37, 81, 0.48), rgba(67, 81, 119, 0.48)), url('/img/carmels-group-hero-section.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url('/img/carmels-group-hero-section.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 80vh;
+  padding-top: 60px;
   .container {
     color: $white;
   }
@@ -265,7 +266,7 @@ body {
 
 // Our invest
 .our-investments {
-  padding: 80px 0px;
+  padding: 65px 0px;
   background-color: $ash-back;
   h2 {
     color: $base-red;
@@ -289,8 +290,9 @@ body {
       margin-bottom: 20px;
       h5 {
         text-align: center;
-        width: 174px;
+        width: 188px;
         margin: auto;
+        font-family: $header-font;
       }
     }
   }
@@ -298,7 +300,7 @@ body {
 
 // about
 .about-items {
-  height: 80vh;
+  height: 65vh;
   background-color: $base-red;
   color: $white;
   display: flex;
@@ -309,7 +311,7 @@ body {
 
 }
 .about-items:last-child {
-  background-image: url('/img/carmels-group-construction-1.jpg');
+  background-image: url('/img/carmels-group-home-about-us.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -331,7 +333,7 @@ body {
     align-items: center;
   }
   .sustainablity-items:last-child {
-    height: 80vh;
+    height: 65vh;
     background: $white;
     .content {
       width: 417px;
@@ -350,14 +352,17 @@ body {
 }
 
 .our-commitment {
-  background: linear-gradient(rgba(21, 37, 81, 0.48), rgba(67, 81, 119, 0.48)), url('/img/carmels-group-commitment-bg.jpg');
-  height: 60vh;
+  background: linear-gradient(rgba(4, 7, 15, 0.48), rgba(3, 3, 5, 0.48)), url('/img/carmels-group-commitment-bg.jpg');
+  height: 70vh;
   display: flex;
   align-items: center;
   .content {
     color: $white;
     margin: auto;
     width: 761px;
+    h1 {
+      font-size: 2.5rem;
+    }
     h3 {
       color: $white;
     }
@@ -369,7 +374,7 @@ body {
   background-color: #0e1e43;
   padding: 80px 0px 40px 0px;
   hr {
-    height: 3px;
+    height: 1px;
     color: $body-text;
   }
   .footer-img {
@@ -382,11 +387,14 @@ body {
     .footer-nav-item {
       display: block;
       border-bottom: 2px solid $body-text;
-      padding-bottom: 10px;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      font-size: 18px;
     }
     .footer-social {
       padding-top: 40px;
       font-size: 20px;
+      // float: right;
       a {
         padding: 0px 10px;
       }
@@ -402,16 +410,19 @@ body {
     text-align: center;
     p {
       color: $white;
-      font-size: 1rem;
+      font-size: 12px;
     }
   }
 }
 
 @media (min-width: 1000px) {
   .bg-hero {
+    height: 120vh;
+    padding-top: 0px;
     .container{
       h1 {
         width: 670px;
+        font-size: 3.5rem;
       }
     }
   }
@@ -434,15 +445,22 @@ body {
     .sustainablity-items {
       height: 80vh;
     }
+    .sustainablity-items:last-child {
+      height: 80vh;
+    }
+  }
+
+  .our-commitment {
+    .content {
+      h1 {
+        font-size: 3.5rem;
+      }
+    }
   }
 
   .footer {
     background-color: #0e1e43;
     padding: 80px 0px 40px 0px;
-    hr {
-      height: 3px;
-      color: $body-text;
-    }
     .footer-img {
       img {
         width: 200px;
@@ -451,6 +469,7 @@ body {
     }
     .footer-nav {
       .footer-social {
+        float: right;
         padding-top: 0px;
       }
     }
@@ -460,10 +479,6 @@ body {
       font-family: $regular-fonts;
       display: flex;
       justify-content: space-between;
-      p {
-        color: $white;
-        font-size: 1rem;
-      }
     }
   }
 }

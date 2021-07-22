@@ -5,9 +5,7 @@
           <h1>
             A leading diversified
             conglomerate with
-            operations businesses
-            across Oil & Gas, Power
-            and Construction.
+            operations within & beyond the shores of Africa.
           </h1>
           <button
             class="base-outline mt-4"
@@ -20,7 +18,7 @@
 
     <section class="our-investments">
       <div class="container">
-        <h2>Our Investments</h2>
+        <h2>Our Investments Sectors</h2>
         <div class="row row-cols-1 row-cols-md-4 g-4">
           <div
             v-for="investment in state.invest"
@@ -74,7 +72,7 @@
 
     <section class="sustainablity-home">
       <div class="container">
-        <div class="row">
+        <div class="row px-2">
           <div class="col-12 col-lg-6 sustainablity-items" />
           <div class="col-12 col-lg-6 sustainablity-items">
             <div class="content">
@@ -103,7 +101,7 @@
 
     <section class="our-commitment">
       <div class="content text-center">
-        <h2>Our Commitment</h2>
+        <h1>Our Commitment</h1>
         <h3>
           We are committed to meeting the Africa’s energy,power, automation and construction needs responsibly.
         </h3>
@@ -121,6 +119,7 @@ import invest from '@/data/ourInvest.js'
 import Footer from '../components/common/Footer.vue'
 export default {
   components: { Footer },
+  title: 'Carmel\'s Group - Home',
   name: 'Home',
   setup () {
     const state = reactive({

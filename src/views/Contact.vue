@@ -21,7 +21,7 @@
             <div
               class="card"
             >
-            <div class="content">
+            <div class="content pt-5">
               <div class="inner-content">
                 <h4>{{ state.city }}</h4>
                 <p>{{ state.address }}</p>
@@ -63,8 +63,10 @@
 
 <script>
 import Footer from '../components/common/Footer.vue'
+// document.title = ''
 export default {
   name: 'Contact',
+  title: 'Contact us | Carmel\'s Group',
   components: { Footer },
   data () {
     return {
@@ -77,17 +79,19 @@ export default {
           city: 'Port Harcourt',
           address: 'Plot 385 Prof. Okujagu Street, Off Peter Odili Road, Trans-Amadi Industrial Layout, Port Harcourt, Nigeria',
           phone: 'M: +234(0)909.199.6571',
-          email: 'E: info@carmel-s.com'
+          email: 'E: info@carmelsgroup.com'
         },
         {
           city: 'Lagos',
           address: '1B Alh. Hussein Sunmonu St., Lekki Phase 1, Lagos',
           phone: 'M: +234(0)909.199.6571',
-          email: 'E: info@carmel-s.com'
+          email: 'E: info@carmelsgroup.com'
         },
         {
           city: 'United Kingdom',
-          address: '10 Malvern Road AYLESBURY, BUCKS HP20 1QF,England'
+          address: '10 Malvern Road AYLESBURY, BUCKS HP20 1QF,England',
+          phone: 'M: +44.(0).129.658.6159',
+          email: 'E: uk@carmelsgroup.com'
         }
       ]
     }
@@ -102,7 +106,7 @@ export default {
 
 <style lang="scss" scoped>
 .bg-hero-invest {
-  background: linear-gradient(rgba(21, 37, 81, 0.48), rgba(67, 81, 119, 0.48)), url('/img/carmtek-contact-header-img.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(8, 8, 8, 0.48)), url('/img/carmtek-contact-header-img.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -2,7 +2,7 @@
 
 .story {
   background-color: $ash-back;
-  padding: 80px 0px;
+  padding: 40px 0px 20px 0px;
   h2 {
     color: $base-red;
     padding-bottom: 20px;
@@ -10,7 +10,7 @@
 }
 
 .our-mission {
-  padding: 80px 0px;
+  padding-top: 40px;
   background-color: $ash-back;
   h2 {
     color: $base-red;
@@ -37,7 +37,7 @@
 }
 
 .our-core-values {
-  padding-bottom: 40px;
+  padding: 40px 0px 80px 0px;
   background-color: $ash-back;
   h2 {
     color: $base-red;
@@ -46,6 +46,7 @@
   h3 {
     font-family: $header-font;
     color: $base-red;
+    font-size: 1.4rem;
   }
   .card {
     border: 0px;
@@ -60,6 +61,9 @@
 }
 
 @media (min-width: 1000px) {
+  .story {
+    padding: 80px 190px;
+  }
   .our-mission {
     .card {
       .content {

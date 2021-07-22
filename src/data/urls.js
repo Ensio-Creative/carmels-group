@@ -1,22 +1,22 @@
 export default [
   {
-    title: 'Home',
+    title: 'HOME',
     url: '/'
   },
   {
-    title: 'About us',
+    title: 'ABOUT US',
     url: '/about-us'
   },
   {
-    title: 'Investments',
+    title: 'INVESTMENTS',
     url: '/investments'
   },
   {
-    title: 'Sustainability',
+    title: 'SUSTAINABILITY',
     url: '/sustainability'
   },
   {
-    title: 'Contact us',
+    title: 'CONTACT US',
     url: '/contact-us'
   }
 ]

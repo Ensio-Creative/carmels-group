@@ -1,10 +1,10 @@
 
 .humanity {
   background-color: $ash-back;
-  padding: 80px 0px;
+  padding: 60px 0px;
   
   .humanity-item {
-    height: 90vh;
+    height: 115vh;
     background-color: $white;
     display: flex;
     align-items: center;
@@ -23,5 +23,21 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 60vh;
+  }
+}
+
+@media (min-width: 1000px) {
+  .humanity {
+    background-color: $ash-back;
+    padding: 80px 0px;
+    
+    .humanity-item {
+      height: 90vh;
+    }
+  
+    .humanity-item:last-child {
+      height: 90vh;
+    }
   }
 }

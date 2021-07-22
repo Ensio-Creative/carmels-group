@@ -7,7 +7,7 @@
             <img src="/img/carmels-group-white-logo.svg" alt="">
           </div>
         </div>
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-7">
           <div class="row">
             <div class="col-12 col-lg-4 footer-nav">
               <router-link
@@ -52,18 +52,39 @@
     <hr>
     <div class="container copyright mt-5">
       <p class="copy-items">&copy; {{ date.getFullYear() }} Carmels Group. All rights reserved.</p>
-      <p class="copy-items">Site Credit: <strong> <a href="www.ensiocreative.com">Ensio Creative</a> </strong></p>
+      <p class="copy-items">Site Credit: <strong> <a href="https://ensiocreative.com">Ensio Creative</a> </strong></p>
     </div>
   </div>
 </template>
 
 <script>
-import routes from '@/data/urls.js'
+// import routes from '@/data/urls.js'
 export default {
   name: 'Footer',
   setup () {
     return {
-      routes,
+      routes: [
+        {
+          title: 'Home',
+          url: '/'
+        },
+        {
+          title: 'About us',
+          url: '/about-us'
+        },
+        {
+          title: 'Investments',
+          url: '/investments'
+        },
+        {
+          title: 'Sustainability',
+          url: '/sustainability'
+        },
+        {
+          title: 'Contact us',
+          url: '/contact-us'
+        }
+      ],
       date: new Date()
     }
   }

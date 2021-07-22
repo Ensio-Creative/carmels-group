@@ -8,7 +8,7 @@
 
     <section class="humanity">
       <div class="container">
-        <div class="row">
+        <div class="row px-2">
           <div class="col-12 col-lg-6 humanity-item">
             <div class="content">
               <h2>Humanity first</h2>
@@ -35,8 +35,10 @@
 
 <script>
 import Footer from '../components/common/Footer.vue'
+// document.title = 'Sustainability | Carmel\'s Group'
 export default {
   components: { Footer },
+  title: 'Sustainability | Carmel\'s Group',
   name: 'Sustainability',
   setup () {
     return {}
@@ -46,7 +48,7 @@ export default {
 
 <style lang="scss" scoped>
 .bg-hero-invest {
-  background: linear-gradient(rgba(21, 37, 81, 0.48), rgba(67, 81, 119, 0.48)), url('/img/carmels-group-sustainability-header-img.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url('/img/carmels-group-sustainability-header-img.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

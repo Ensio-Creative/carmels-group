@@ -8,11 +8,11 @@ export default [
     title: 'Power Generation & Distribution'
   },
   {
-    img: 'carmels-group-construction.jpg',
-    title: 'Construction'
+    img: 'carmels-group-marine.jpg',
+    title: 'Marine'
   },
   {
-    img: 'carmels-group-automation.jpg',
-    title: 'Industrial Automation'
+    img: 'carmels-group-manufacturing.jpg',
+    title: 'Manufacturing'
   }
 ]

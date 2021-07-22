@@ -9,9 +9,9 @@
     <section class="story">
       <div class="container">
         <div class="content">
-          <h2>Our Story</h2>
+          <h2>Overview</h2>
           <p>Carmel’s Group incorporated in 2003, is a leading Nigerian conglomerate
-            focused in the oil and gas, and power sectors as solutions and related services
+            focused in the oil and gas, power generation, marine, manufacturing and mining sectors as solutions and related services
             provider.
           </p>
           <p>Over the course of our long history, we have emerged as one of the leaders in almost every aspect of our businesses.
@@ -80,19 +80,21 @@
 <script>
 import { reactive } from 'vue'
 import Footer from '../components/common/Footer.vue'
+// document.title = ''
 export default {
   components: { Footer },
+  title: 'About us | Carmel\'s Group',
   name: 'About',
   setup () {
     const state = reactive({
       visions: [
         {
           img: 'carmels-group-vision.jpg',
-          title: 'We have the willingness and to lead in all our business areas with respect to people and the environment.'
+          title: 'Vision.'
         },
         {
           img: 'carmels-group-mission.jpg',
-          title: 'We have the willingness and to lead in all our business areas with respect to people and the environment.'
+          title: 'Mission.'
         }
       ],
       values: [
@@ -131,7 +133,7 @@ export default {
 
 <style lang="scss" scoped>
 .bg-hero-invest {
-  background: linear-gradient(rgba(118, 125, 145, 0.48), rgba(67, 81, 119, 0.48)), url('/img/carmels-group-about-us-header-img.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url('/img/carmels-group-about-us-header-img.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

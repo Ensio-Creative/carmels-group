@@ -6,8 +6,8 @@ body {
   background-color: #fff;
 }
 @font-face{
-  font-family:"BwGradualDEMO-ExtraBoldItalic";
-  src: local("BwGradualDEMO-ExtraBoldItalic"),
+  font-family:"BwGradualDEMO-ExtraBold";
+  src: local("BwGradualDEMO-ExtraBold"),
   url(../assets/fonts/BwGradualDEMO-ExtraBold.otf) format("truetype");
 }
 @font-face{
@@ -17,7 +17,7 @@ body {
 }
 
 // Fonts
-$header-font: "BwGradualDEMO-ExtraBoldItalic";
+$header-font: "BwGradualDEMO-ExtraBold";
 $regular-fonts: "muli";
 
 // Colors
@@ -75,7 +75,7 @@ button {
 
 .base-outline:hover {
   background-color: $white;
-  color: #000;
+  color: $base-red;
   transition: 0.5s;
 }
 
@@ -127,6 +127,6 @@ button {
 
 @media (min-width: 1000px) {
   h1 {
-    font-size: 3.5rem;
+    font-size: 5rem;
   }
 }

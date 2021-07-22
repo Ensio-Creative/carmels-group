@@ -2,14 +2,14 @@
   <div>
     <section class="contsiner-fluid bg-hero-invest">
       <div class="content text-center">
-        <h1>Investments</h1>
+        <h1>Our Investments</h1>
       </div>
     </section>
 
     <section class="investments-section">
       <div class="container">
-        <div class="row invest-rows">
-          <div class="col-12 col-lg-6 carmels-tekno">
+        <div class="row invest-rows px-2">
+          <div class="col-12 col-lg-6 carmels-tekno order-2 order-sm-6">
             <div class="content">
               <h6>Carmel’s Tekno</h6>
               <h2>A pioneer in ICSS and Construction</h2>
@@ -17,12 +17,12 @@
                 The ICSS and Construction activities of Carmel's are carried out by Carmel's Tekno. Carmel's Tekno is committed to excellent-based services in ICSS and construction having delivered exceptionally to both local and multinational companies.
               </p>
 
-              <a href="#" target="_blank" rel="noopener noreferrer" class="base-link">Visit website</a>
+              <a href="https://carmel-s.com" target="_blank" rel="noopener noreferrer" class="base-link">Visit website</a>
             </div>
           </div>
-          <div class="col-12 col-lg-6 carmels-tekno" />
+          <div class="col-12 col-lg-6 carmels-tekno order-6 order-sm-2" />
         </div>
-        <div class="row invest-rows">
+        <div class="row invest-rows px-2">
           <div class="col-12 col-lg-6 carmtek" />
           <div class="col-12 col-lg-6 carmtek">
             <div class="content">
@@ -34,12 +34,12 @@
                 systems for the control and management of physical and
                 remote assets.
               </p>
-              <a href="#" target="_blank" rel="noopener noreferrer" class="base-link">Visit website</a>
+              <a href="https://carmtek.com" target="_blank" rel="noopener noreferrer" class="base-link">Visit website</a>
             </div>
           </div>
         </div>
-        <div class="row invest-rows">
-          <div class="col-12 col-lg-6 techical">
+        <div class="row invest-rows px-2">
+          <div class="col-12 col-lg-6 techical order-2 order-sm-6">
             <div class="content">
               <h6>Carmel’s Technical</h6>
               <h2>Asset Inspection and Integrity Solution</h2>
@@ -52,9 +52,9 @@
                 </p>
             </div>
           </div>
-          <div class="col-12 col-lg-6 techical" />
+          <div class="col-12 col-lg-6 techical order-6 order-sm-2" />
         </div>
-        <div class="row invest-rows">
+        <div class="row invest-rows px-2">
           <div class="col-12 col-lg-6 precision" />
           <div class="col-12 col-lg-6 precision">
             <div class="content">
@@ -74,7 +74,9 @@
 
 <script>
 import Footer from '../components/common/Footer.vue'
+// document.title = 'Our Investments | Carmel\'s Group'
 export default {
+  title: 'Our Investments | Carmel\'s Group',
   components: { Footer },
   name: 'Investment',
   setup () {

@@ -1,6 +1,6 @@
 
 .get-in-touch {
-  padding: 40px 0px;
+  padding: 20px 0px 40px 0px;
   background-color: $white;
   .get-text {
     padding: 40px 0px;
@@ -23,7 +23,7 @@
 
 .send-message {
   background-color: $ash-back;
-  padding: 80px 20px;
+  padding: 40px 0px 80px 20px;
 
   h2 {
     padding-bottom: 30px;
@@ -87,6 +87,7 @@
 
 @media (min-width: 1000px) {
   .get-in-touch {
+    padding: 20px 0px 80px 0px;
     .get-text {
       p {
         width: 333px;
