@@ -26,7 +26,7 @@
           <div class="col-12 col-lg-6 carmtek" />
           <div class="col-12 col-lg-6 carmtek">
             <div class="content">
-              <h6>Carmtek</h6>
+              <h6>CARMTEK</h6>
               <h2>Industrial Automation Solution Provider</h2>
               <p>We are well-postioned in addressing the complexity of
                 IoT/automation solution integration into industrial
@@ -34,7 +34,7 @@
                 systems for the control and management of physical and
                 remote assets.
               </p>
-              <a href="https://carmtek.com" target="_blank" rel="noopener noreferrer" class="base-link">Visit website</a>
+              <a href="https://carmteksolutions.com" target="_blank" rel="noopener noreferrer" class="base-link">Visit website</a>
             </div>
           </div>
         </div>

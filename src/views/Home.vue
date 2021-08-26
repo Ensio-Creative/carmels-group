@@ -20,10 +20,11 @@
       <div class="container">
         <h2>Our Investments Sectors</h2>
         <div class="row row-cols-1 row-cols-md-4 g-4">
-          <div
+          <router-link
             v-for="investment in state.invest"
             :key="investment.title"
             class="col"
+            to="/investments"
           >
             <div
               class="card"
@@ -37,7 +38,7 @@
               </div>
             </div>
             </div>
-          </div>
+          </router-link>
         </div>
       </div>
     </section>

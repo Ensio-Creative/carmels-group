@@ -14,7 +14,7 @@
             focused in the oil and gas, power generation, marine, manufacturing and mining sectors as solutions and related services
             provider.
           </p>
-          <p>Over the course of our long history, we have emerged as one of the leaders in almost every aspect of our businesses.
+          <p>Over the course of our long history, we have emerged as one of the leaders in almost every aspect of our businesses and also 9001:2015 certified.
           </p>
           <p>Our drive towards innovation and experience combined with our collaborative
             approach towards ensuring reliable and efficient results has proven us as a
