@@ -15,21 +15,25 @@ const routes = [
   {
     path: '/investments',
     name: 'Investments',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Investments.vue')
+    component: () => import(/* webpackChunkName: "investments" */ '../views/Investments.vue')
   },
   {
     path: '/sustainability',
     name: 'Sustainability',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Sustainability.vue')
+    component: () => import(/* webpackChunkName: "sustainability" */ '../views/Sustainability.vue')
   },
   {
     path: '/contact-us',
     name: 'Contact',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Contact.vue')
+    component: () => import(/* webpackChunkName: "contact" */ '../views/Contact.vue')
   }
 ]
 
 const router = createRouter({
+  scrollBehavior (to, from, savedPosition) {
+    // always scroll to top
+    return { top: 0 }
+  },
   history: createWebHistory(process.env.BASE_URL),
   routes
 })

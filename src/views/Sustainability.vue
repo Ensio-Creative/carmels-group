@@ -21,7 +21,7 @@
               <p class="mb-5">
                 The goal of our sustainable development program is to impact and improve lives of people and environment as we engage, empower, and evolve on every front.
               </p>
-              <a href="#" target="_blank" rel="noopener noreferrer" class="base-link-outline">Visit website</a>
+              <a href="https://carmelsfoundation.org" target="_blank" rel="noopener noreferrer" class="btn-red-base">Visit website</a>
             </div>
           </div>
           <div class="col-12 col-lg-6 humanity-item" />

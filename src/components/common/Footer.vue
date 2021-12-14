@@ -52,7 +52,7 @@
     <hr>
     <div class="container copyright mt-5">
       <p class="copy-items">&copy; {{ date.getFullYear() }} Carmels Group. All rights reserved.</p>
-      <p class="copy-items">Site Credit: <strong> <a href="https://ensiocreative.com">Ensio Creative</a> </strong></p>
+      <p class="copy-items">Site Credit: <strong> <a href="https://ensiocreative.com" target="_blank" rel="noopener noreferrer">Ensio Creative</a> </strong></p>
     </div>
   </div>
 </template>
